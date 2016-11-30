@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>No Thank You, Website!</title>
+    <style>
+      body {
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 100%;
+        min-width: 600px;
+      }
+      h1 {
+        margin: 0;
+      }
+      textarea {
+        height: 300px;
+        width: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>No Thank You, Website!</h1>
+    <p>List of websites to block (one per line):</p>
+    <textarea id="blocked-sites"></textarea>
+    <div id="status"></div>
+    <button id="save-options">Update</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
