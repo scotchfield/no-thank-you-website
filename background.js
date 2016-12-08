@@ -10,7 +10,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
       shouldBlock = false;
 
     blockedSites.forEach(function (url) {
-      if (tab.url.search(url) >= 0) {
+      if (url.length > 0 && tab.url.search(url) >= 0) {
         chrome.tabs.update(tab.id, {url: 'about:blank'});
       }
     });
