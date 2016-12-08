@@ -13,13 +13,26 @@
       }
       textarea {
         height: 300px;
-        width: 90%;
+        width: 99%;
+      }
+      table td.regex {
+        width: 50%;
       }
     </style>
   </head>
   <body>
     <h1>No Thank You, Website!</h1>
-    <p>List of websites to block (one per line):</p>
+    <p>List the websites you want to block below (one per line). For example:</p>
+    <table>
+      <tr>
+        <td class="regex">google.com</td>
+        <td>Block anything that contains google.com anywhere in the URL</td>
+      </tr>
+      <tr>
+        <td class="regex">^https?://([\w\d]+\.)?google\.com</td>
+        <td>Block any URL from google.com, including subdomains.</td>
+      </tr>
+    </table>
     <textarea id="blocked-sites"></textarea>
     <div id="status"></div>
     <button id="save-options">Update</button>
