@@ -1,6 +1,8 @@
 # no-thank-you-website
 No Thank You, Website!, an open-source productivity extension for Chrome to block website access.
 
+https://chrome.google.com/webstore/detail/no-thank-you-website/lfableeiebdjblgjnphnmfnhdfaefokc/
+
 ![No Thank You, Website! screenshot](https://scootah.com/no-thank-you-website.png "No Thank You, Website! screenshot")
 
 Simple, straightforward blocking of websites. Adds a small icon to Chrome that looks like this:
